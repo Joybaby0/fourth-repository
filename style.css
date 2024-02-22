@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.question{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gray;
+    /* transition: 2s; */
+}
+
+.question-display{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+}
+
+.question-btn button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.question-text{
+    display: none;
+    border-top: 1px solid black;
+    padding: 10px;
+    
+}
+
+.show-text .question-text{
+    display: block;
+    /* transition: 3s; */
+}
+
+.minus-btn{
+    display: none;
+}
+
+.show-text .minus-btn{
+    display: inline;
+}
+
+.show-text .plus-btn{
+    display: none;
+}
